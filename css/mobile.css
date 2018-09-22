@@ -1,0 +1,45 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Aug 10, 2018, 7:10:48 PM
+    Author     : thira
+*/
+@media (max-width: 600px) {
+    .h1class {
+      font-size: 14px;
+      padding: 10px 0px;
+    }
+/* THAI font */
+    .h2class {
+      font-size: 14px;
+      padding: 10px 0px;
+    }
+    .image-size {
+        width: 128px;
+        height: 72px
+    }
+    h3 {
+      letter-spacing: 1px;
+      font-size: 18px;
+    }
+    .menu li {
+      font-size: 14px;
+    }
+    .menu li a {
+      padding: 10px 6px;
+    }
+    p {
+      font-size: 14px;
+      line-height: 20px;
+    }
+    small {
+    font-size: 12px;
+    }
+    div {
+    font-size: 14px;
+    }
+}
+}

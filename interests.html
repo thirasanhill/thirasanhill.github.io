@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Thirasan Hill - Website</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Load Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    
+    <!-- Load Google Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Londrina+Shadow' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Gochi+Hand" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Itim" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet"> 
+    
+    <!-- Load my CSS stylesheets -->
+    <link rel="stylesheet" type="text/css" href="css/mystyle.css">
+    <link rel="stylesheet" type="text/css" href="css/mobile.css">
+</head>
+
+<body id="page" class="interestspage">
+
+<div class="container-fluid">
+  <header>
+    <div class="center" style="padding-top: 10px;">
+      
+        <span class="h1class"> Thirasan Hill </span>
+        <img class="image-style image-size" src="images/thirasan.jpg" alt="photo of Thirasan" title="Thirasan Hill">
+        <span class="h2class"> ธีรสันต์ ฮิลล์ </span>
+      
+    </div>
+  </header>
+</div>
+
+<div class="container-fluid" style="padding: 0; margin: 0;">
+  <nav class="navbar menu navbar-expand-sm sticky-top"
+   style="padding: 0; margin: 10px 0;">
+
+    <!-- Brand -->
+    <!--
+    <a class="navbar-brand" href="#"></a>
+    -->
+    
+    <!-- Toggler/collapsibe Button -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Navbar links -->
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+
+      <ul class="navbar-nav">
+
+        <li class="nav-item">
+            <a href="index.html">Home</a>
+        </li>
+
+        <li class="nav-item">
+          <a href="studies.html">Studies</a>
+        </li>
+
+        <li class="active nav-item">
+            <a href="interests.html">Interests</a>
+        </li>
+
+        <li style="float:right" class="contact nav-item">
+            <a href="contact.html">Contact</a>
+        </li>
+
+      </ul>
+    </div>
+
+  </nav>
+</div>
+
+<div class="container-fluid shade">
+    <h3>Interests</h3>
+    I have several interests which keep me busy...
+    <ul id="interests">
+
+        <li><a href="#swimming" onclick="changepage('swim')" data-toggle="collapse">Swimming</a><br>
+        </li>
+        <div id="swimming" class="collapse" data-parent="#interests">
+
+            Best Times
+            <ul>
+                <li>1km : 19mins 54 secs : 11th Oct 2017</li>
+                <li>800m : 15mins 59 secs : 11th Oct 2017</li>
+                <li>100m : 1min 40.22 secs : 23rd Oct 2017</li>
+                <li>50m : 45.00 secs : 23rd Oct 2017</li>
+            </ul>
+            <br>
+<!--
+            <figure class="figure center bg-white text-dark border-radius20">
+                <img class="image-style img-fluid" src="images/swim01.jpg" alt="Thirasan in the pool" title="Me in the pool">
+                <figcaption class="figure-caption text-center">Me in the pool</figcaption>
+            </figure>
+-->
+        </div>
+
+        <li>
+            <a href="#gym" onclick="changepage('gym')"data-toggle="collapse">
+            Gym Weight Training</a>
+            <br>
+        </li>
+        <div id="gym" class="collapse" data-parent="#interests">
+            We have our own gym which consists of :
+            <ul>
+                <li>a leg press machine</li>
+                <li>a smith machine with cable attachments and an incline bench</li>
+                <li>a multigym with pec press, leg extension, dip and leg raise station</li>
+                <li>free weights including barbells, curl bars and dumbells</li>
+            </ul>
+            <a href="#legpress-video" data-toggle="modal">Click here to view a video of me leg pressing 170kg...</a>
+
+            <!-- The Modal -->
+            <div class="modal fade" id="legpress-video">
+              <div class="modal-dialog modal-lg">
+                <div class="modal-content darkmodalg">
+
+                  <!-- Modal Header -->
+                  <div class="modal-header">
+                    <h4 class="modal-title">Leg Press 170kg - 19th July 2018</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  </div>
+
+                  <!-- Modal body -->
+                  <div class="modal-body">
+                    <!-- Responsive Embedded Video -->
+                    <video id="myVideo" controls class="embed-responsive embed-responsive-16by9">
+                      <source src="video/legpress.mp4" type="video/mp4" onload="pause()">
+                      Your browser does not support HTML5 mp4 video.
+                    </video>
+<!--
+                    <div class="embed-responsive embed-responsive-16by9">
+                      <iframe id="myIframe" class="embed-responsive-item" src="video/legpress.mp4" width="720" height="480" onload="pause()">
+                      </iframe>
+                    </div>
+-->
+                  </div>
+
+                  <!-- Modal footer -->
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+            <br>
+                
+            <a href="#workout-schedule" data-toggle="modal">Click here to see my workout schedule (PDF file)</a>
+
+            <!-- The Modal -->
+            <div class="modal fade" id="workout-schedule">
+              <div class="modal-dialog modal-lg">
+                <div class="modal-content darkmodalg">
+
+                  <!-- Modal Header -->
+                  <div class="modal-header">
+                    <h4 class="modal-title">Workout Schedule</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  </div>
+
+                  <!-- Modal body -->
+                  <div class="modal-body">
+                    <!-- Responsive Embedded Video -->
+                    <div id="workout-schedule" class=" embed-responsive embed-responsive-16by9">
+                      <iframe class="embed-responsive-item" src="pdf/Workout-Thirasan.pdf" width="720" height="480"></iframe>
+                    </div>
+                  </div>
+
+                  <!-- Modal footer -->
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                  </div>
+
+                </div>
+              </div>
+            </div>                    
+            <br>
+            <br>
+        </div>
+
+        <li><a href="#cycling" onclick="changepage('cycle')" data-toggle="collapse">Cycling</a><br></li>
+        <div id="cycling" class="collapse" data-parent="#interests">
+            <p>Another way I keep fit is with cycling. We have a spin bike at home so I can cycle and watch TV at the same time, and I have a mountain bike for cycling around the estate and elsewhere. The coastal area where we live is very flat so it's good for cycling.</p>
+        </div>
+
+        <li><a href="#computer-games" onclick="changepage('computergame')" data-toggle="collapse">Computer Games</a><br></li>
+        <div id="computer-games" class="collapse" data-parent="#interests">
+            <p>I don't play many computer games on my tablet, but I do play Minecraft and Castle Clash. Minecraft is quite creative since you create a world and all of the objects within it. Castle Clash is strategic, you build an army of heroes and troops, and strengthen them with skills and talents, and you also build a base, and stengthen and defend it with walls, traps, heroes and troops.</p>
+        </div>
+
+        <li><a href="#computer-prog" onclick="changepage('computercode')" data-toggle="collapse">Computer Programming</a><br></li>
+        <div id="computer-prog" class="collapse" data-parent="#interests">
+            <p>I'm currently learning how to make websites and write code in HTML, CSS and JavaScript, using the Bootstrap framework with JQuery and other JavaScript library frameworks.</p>
+            <p>But I also need to understand the current state of play for developing web applications including both client side and server side technologies.</p>
+            <p>So in the future I also hope to learn how to code in PHP, Python, Ruby, JSON (JavaScript Object Notation), Java, C, C++ and C#, and use frameworks such as Laravel for PHP, Angular for JavaScript, React for JavaScript, and Node.JS for server side JavaScript.</p>
+            <p>I will also need to become familiar with using SQL databases such as MySQL and NonSQL databases such as Mongo DB.</p>
+            <p>Apart from the coding type technologies above, there are also user friendly Content Management Systems (CMS) which do not necessarily require coding to build websites, the most popular of which by far is WordPress, and so I will also spend time learning how to make websites with WordPress and learning how to code plugins for this popular CMS</p>
+        </div>
+
+        <li><a href="#kayaking" onclick="changepage('kayaking')" data-toggle="collapse">Kayaking</a><br></li>
+        <div id="kayaking" class="collapse" data-parent="#interests">
+            <p>We have a few kayaks and since our back garden backs onto a tidal waterway which leads to the ocean, we can launch our kayaks from the end of the garden and paddle to the sea. </p>
+        </div>
+
+        <li><a href="#walking" onclick="changepage('walking')" data-toggle="collapse">Walking</a><br></li>
+        <div id="walking" class="collapse" data-parent="#interests">
+            <p>One of my favourite places to go is Khao Chamao National Park which is about 
+            30 minutes drive from our house. I've been going there since I was a little boy, taking the nature trail which goes up the hillside alongside the river, and swimming in the cool water of the river amongst hundreds of fish. The fish are not scared of humans and so they swim close to you when you are in the river.</p>
+            <p>I also like to go walking along the beach in the area where I live, and along the nature trails through the mangroves.</p>
+        </div>
+
+        <li><a href="#caving" onclick="changepage('caving')" data-toggle="collapse">Caving</a><br></li>
+        <div id="caving" class="collapse" data-parent="#interests">
+            <p>Thailand has many caves, including some within about 45 minutes drive from our home. It's safe to visit them during dry season. Some caves you can walk into and others you go in by boat along the river which made the cave.</p>
+            <p>There's always bats in the caves in Thailand, as well as stalactites and stalagmites (stalactites come down from the ceiling and stalagmites come up from the ground).</p>
+        </div>
+
+        <li><a href="#cinema" onclick="changepage('cinema')" data-toggle="collapse">Cinema and TV</a><br></li>
+        <div id="cinema" class="collapse" data-parent="#interests">
+            <p>When I'm not any of the other things, then I like to watch TV or go to the cinema, and my favourite 
+            films are...</p>
+            <dl>
+                <dt><p>Favourite Films</p></dt>
+                <dd>- 1st : <a href="https://www.imdb.com/title/tt0892769/" target="_blank">How to train your dragon</a></dd>
+                <dd>- 2nd : <a href="https://www.imdb.com/title/tt2245084/" target="_blank">Big Hero 6</a></dd>
+                <dd>- 3rd : <a href="https://www.imdb.com/title/tt0800369/" target="_blank">Thor (Marvel)</a></dd>
+            </dl>    
+        </div>
+
+        <li><a href="#drawing" onclick="changepage('drawing')" data-toggle="collapse">Drawing</a><br></li>
+        <div id="drawing" class="collapse" data-parent="#interests">
+            <p>I like to draw cartoon characters and superheroes.</p>
+
+        </div>
+    </ul>
+</div>
+
+<script>
+//  set var lastclicked as a global variable
+  var lastclicked = "none";
+
+//  set var lastpage as a global variable
+  var lastpage = "OFF";
+
+//  function to change the backgound image
+  function changepage(pageid){
+    pageid = pageid;
+    console.log('pageid set to '+pageid);
+
+    var clicked = pageid;
+    console.log('clicked set to '+clicked);
+
+    var page = document.getElementById('page');
+
+//  if there's already been a click and
+//  the lastclicked wasn't the same as this click
+//  then toggle off the lastclicked...
+    console.log('lastclciked set to '+lastclicked);
+
+    if (lastclicked == "none") {
+      page.classList.toggle(clicked+"page");
+      lastpage = "ON";
+      console.log('if lastclicked = clicked toggle '+clicked);
+    }
+    else {
+        if (lastclicked == clicked) {
+            if (lastpage == "ON") {
+              page.classList.toggle(lastclicked+"page");
+              lastpage = "OFF";
+            }
+            else {
+              page.classList.toggle(clicked+"page");
+              lastpage = "ON";
+            }
+        }
+        else {
+            if (lastpage == "ON") {
+              page.classList.toggle(lastclicked+"page");
+//              lastpage = "OFF";
+              page.classList.toggle(clicked+"page");
+//              lastpage = "ON";
+            }
+            else {
+              page.classList.toggle(clicked+"page");
+              lastpage = "ON";
+            }
+        }
+    }
+
+//  reset the value of lastclicked to the one just clicked
+    lastclicked = clicked;
+  }
+// end function
+
+  var vid = document.getElementById("myVideo");
+
+  function pause() {
+    vid.pause();
+  }
+
+</script>
+
+
+    <!-- Load Bootstrap javascript dependencies -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+</body>
+</html>

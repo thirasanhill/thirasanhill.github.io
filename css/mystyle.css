@@ -1,0 +1,395 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Aug 3, 2018, 4:15:41 PM
+    Author     : thira
+*/
+    .homepage {
+      text-align: left;
+      background: black;
+      background-image: url("../images/ocean01.jpg");
+      background-size: auto contain;
+      background-position: center top;
+      background-repeat:no-repeat;
+      color: white;
+    }
+    .otherpage {
+      text-align: left;
+      background: black;
+      background-size: cover;
+      background-position: left top;
+      background-repeat:no-repeat;
+      color: white;
+/*      font-family: 'Verdana'; */
+    }
+/*    .collapsing {
+      background: url("../images/swim03.jpg");      
+    }
+*/
+    .studiespage {
+      text-align: left;
+      background: black;
+      background-image: url('../images/unit-circle.jpg');
+      background-size: contain;
+      background-position: left top;
+      background-repeat: repeat;
+      color: white;
+    }
+    .contactpage {
+      text-align: left;
+      background: black;
+      background-image: url('../images/wang-gairw.jpg');
+      background-size: auto contain;
+      background-position: center top;
+      background-repeat:no-repeat;
+      color: white;
+    }
+    .interestspage {
+      text-align: left;
+      background: black;
+      background-image: url("../images/trike01.jpg");
+      background-size: cover;
+      background-position: center top;
+      background-repeat:no-repeat;
+      color: white;
+    }
+    .swimpage {
+      text-align: left;
+      background: black;
+      background-image: url("../images/swim01.jpg");
+      background-size: cover;
+      background-position: center top;
+      background-repeat:no-repeat;
+      color: white;
+    }
+    .gympage {
+      text-align: left;
+      background: black;
+      background-image: url("../images/smithmach02.jpg");
+      background-size: cover;
+      background-position: left top;
+      background-repeat:no-repeat;
+      color: white;
+    }
+    .cyclepage {
+      text-align: left;
+      background: black;
+      background-image: url("../images/cycling02.jpg");
+      background-size: cover;
+      background-position: center top;
+      background-repeat:no-repeat;
+      color: white;
+    }
+    .computergamepage {
+      text-align: left;
+      background: black;
+      background-image: url("../images/screenshot02.jpg");
+      background-size: cover;
+      background-position: center top;
+      background-repeat:no-repeat;
+      color: white;
+    }
+    .computercodepage {
+      text-align: left;
+      background: black;
+      background-image: url("../images/modal-code.jpg");
+      background-size: cover;
+      background-position: left top;
+      background-repeat:no-repeat;
+      color: white;
+    }
+    .kayakingpage {
+      text-align: left;
+      background: black;
+      background-image: url("../images/kayak01.jpg");
+      background-size: cover;
+      background-position: center top;
+      background-repeat:no-repeat;
+      color: white;
+    }
+    .walkingpage {
+      text-align: left;
+      background: black;
+      background-image: url("../images/walk01.jpg");
+      background-size: cover;
+      background-position: center top;
+      background-repeat:no-repeat;
+      color: white;
+    }
+    .cavingpage {
+      text-align: left;
+      background: black;
+      background-image: url("../images/caving02.jpg");
+      background-size: cover;
+      background-position: center top;
+      background-repeat:no-repeat;
+      color: white;
+    }
+    .cinemapage {
+      text-align: left;
+      background: black;
+      background-image: url("../images/cinema01.jpg");
+      background-size: cover;
+      background-position: center top;
+      background-repeat:no-repeat;
+      color: white;
+    }
+    .drawingpage {
+      text-align: left;
+      background: black;
+      background-image: url("../images/drawing01.jpg");
+      background-size: cover;
+      background-position: center top;
+      background-repeat:no-repeat;
+      color: white;
+    }
+
+
+    .center {
+      display: table;
+      vertical-align: middle;
+      margin-top: 0px;
+      margin-left: auto;
+      margin-right: auto;
+      padding-left: 0px;
+      padding-right: 0px;
+    }
+    .h1class {
+      font-family: 'Gochi Hand', cursive;
+      font-size: 24px;
+      padding: 10px 0px;
+      display: inline;
+      border-top: 4px solid #4CAF50;
+      border-bottom: 4px solid #4CAF50;
+      vertical-align: middle;
+    }
+/* THAI font */
+    .h2class {
+      font-family: 'Itim', cursive;
+      font-size: 24px;
+      padding: 10px 0px;
+      display: inline;
+      border-top: 4px solid #4CAF50;
+      border-bottom: 4px solid #4CAF50;
+      vertical-align: middle;
+    }
+    h3 {
+      font-family: 'Indie Flower', cursive;
+      letter-spacing: 2px;
+      font-size: 24px;
+    }
+    .darkmodal {
+      background: black;
+      color: white;
+    }
+    .darkmodalg {
+      background: black;
+      border: 1px solid #343A40;
+      color: white;
+    }
+    .darkmodalw {
+      background: black;
+      border: 1px solid white;
+      color: white;
+    }
+    .div-photo-w600xh450 {
+        width: 600px;
+        height: 450px;
+        background-size: cover;
+        position: relative;
+        margin: 40px 0 0 0;
+        border: 4px solid white;
+        border-radius: 20px;
+        vertical-align: middle;
+    }
+    .div-photo-w450xh600 {
+        width: 450px;
+        height: 600px;
+        background-size: cover;
+        position: relative;
+        margin: 0px 0 0 0;
+        border: 4px solid white;
+        border-radius: 20px;
+        vertical-align: middle; 
+    }
+    .photo-caption {
+        color: rgba(255,255,255,1);
+        background: black;
+        background: linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+        background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+        background: -moz-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+        padding: 10px;
+        line-height: 28px;
+        text-align: justify;
+        position: absolute;
+        bottom: 0;
+        margin: 0;
+        height: auto;
+        transition: height .5s;
+        -webkit-transition: height .5s;
+        -moz-transition: height .5s;
+        border-radius: 20px;
+    }
+    .show-description photo-caption {
+        height: 150px;
+    }
+    .small-inv {
+        font-size: small;
+        opacity: 1;
+    }
+    .show-description small-inv {
+        opacity: 0;
+    }
+    .khao-chamao1009 {
+      background-image: url("../images/khao-chamao1009.jpg");
+    }
+    .shoulder-press01 {
+      background-image: url("../images/shoulder-press01.jpg");
+    }
+    .cinema01 {
+      background-image: url("../images/cinema01.jpg");
+    }
+    .trike {
+      background-image: url("../images/trike.jpg");
+    }
+    .margin-tb16lr16 {
+      margin: 16px 16px;
+    }
+    .margin-tb0lr16 {
+      margin: 0px 16px;
+    }
+    .padtb0lr16 {
+      padding: 0px 16px;
+    }
+    .padtb0 {
+      padding: 0px 16px;
+    }
+    .padt0 {
+      padding: 0px 16px 16px 16px;
+    }
+    .padb0 {
+      padding: 16px 16px 0px 16px;
+    }
+    p {
+      font-size: 16px;
+    }
+    small {
+      font-size: 14px
+    }
+    div {
+      font-size: 16px
+    }
+    .border-radius20 {
+        border-radius: 20px;
+    }
+    .image-style {
+/*      margin: 0px 0px 0px 0px; */
+      border: 4px solid white;
+      border-radius: 20px;
+      vertical-align: middle;
+    }
+    .image-size {
+        width: 160px;
+        height: 90px
+    }
+    .shade {
+      background-color: rgba(00, 00, 00, 0.5);
+      padding: 14px;
+    }
+    .menushade {
+      background-color: rgba(00, 00, 00, 0.5);
+      padding: 0px;
+    }
+    .dropshade {
+      background-color: rgba(00, 00, 00, 0.75);
+      padding: 4px 0px;
+    }
+    .whiteshade {
+      background-color: rgba(255, 255, 255, 0.5);
+    }
+    .float-r {
+      float: right;
+    }
+    .contact {
+      float: right;
+/*      border-left: 1px solid #4CAF50; */
+      background-color: #FF4D4D;
+    }
+/*  Attempt to show the collapse icon */
+    .iconwhite {
+      color: white;
+      visibility: visible;
+    }
+    .menu ul {
+/*      border: 1px solid #4CAF50; */
+      list-style-type: none;
+      margin: 0 0 0 0;
+      padding: 0;
+/*      
+      overflow: hidden;
+*/
+      background-color: rgba(0, 0, 0, 0.5);
+/*
+      position: fixed;
+      top: 0;
+*/      
+      width: 100%;
+
+      position: -webkit-sticky;  /* Safari */
+      position: sticky;
+      top: 0;
+    }
+    .menu li {
+/*      border-right: 1px solid #4CAF50; */
+      float: left;
+      font-size: 18px;
+    }
+    .menu li:last-child {
+      border-right: none;
+    }
+    .menu li a {
+      display: block;
+      color: white;
+      padding: 14px 14px;
+      text-decoration: none;
+    }
+/* Change the link color on hover */
+    .menu li a:hover {
+      background-color: #000;
+      color: #00FF00;
+      text-decoration: none;
+    }
+    .menu li a:active {
+      background-color: #00FF00;
+      color: white;
+    }
+    /* create a class called "active" so that we can use it to highlight the
+menu button for the currently active page */
+    .active {
+      background-color: #4CAF50;
+    }
+    input {
+      border: 0;
+      padding: 10px;
+      font-size: 18px;
+    }
+    input[type="submit"] {
+      background: red;
+      color: white;
+    }
+    /* normal link color */
+    a {
+      color: #4CAF50;
+      text-decoration: none;
+    }
+    /* mouse over link color */ 
+    a:hover {
+      color: #00FF00;
+      text-decoration: underline;
+    }
+    a:visited {
+      text-decoration: none;
+    }
